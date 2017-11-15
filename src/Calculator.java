@@ -16,6 +16,14 @@ public class Calculator{
         return (numerator/denominator);
     }
 
+    public double exponentiate (double base, double exponent) {
+        int result = 1;
+        for (int i = (int) exponent; i>0; i--) {
+            result = result * (int) base;
+        }
+        return result;
+    }
+
 
 
 }

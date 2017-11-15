@@ -1,8 +1,21 @@
 public class Calculator{
 
-
-    public addition(){
-        
+    public double addition(double a, double b){
+        return (a+b);
     }
+
+    public double subtraction(double a, double b){
+        return (a-b);
+    }
+
+    public double multiplication(double a, double b){
+        return (a*b);
+    }
+
+    public double division(double numerator, double denominator){
+        return (numerator/denominator);
+    }
+
+
 
 }
